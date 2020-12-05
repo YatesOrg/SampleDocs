@@ -30,8 +30,8 @@
       },
       {
         "files": [
-          "**/**.md",
-          "**/**.yml"
+          "**/*.md",
+          "**/*.yml"
         ],
         "src": "docs",
         "dest":"."
@@ -58,7 +58,6 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "globalMetadata": {
-      "_appTitle": "Sample Site Title",
       "_enableSearch": "true"
     },
     "fileMetadataFiles": [],
