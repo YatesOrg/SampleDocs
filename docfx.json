@@ -30,8 +30,8 @@
       },
       {
         "files": [
-          "**/*.md",
-          "**/*.yml",
+          "articles/**/*.md",
+          "articles/**/*.yml",
         ],
         "src": "docs",
         "dest": "."
