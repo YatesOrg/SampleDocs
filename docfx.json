@@ -62,7 +62,8 @@
     },
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "templates/superoffice"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
     "markdownEngineName": "markdig",
