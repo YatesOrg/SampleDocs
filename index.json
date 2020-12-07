@@ -1,0 +1,77 @@
+{
+  "articles/howto/overview.html": {
+    "href": "articles/howto/overview.html",
+    "title": "How To Overview",
+    "keywords": "How To Overview This is the how to overview."
+  },
+  "articles/howto/howto2.html": {
+    "href": "articles/howto/howto2.html",
+    "title": "HowTo Two",
+    "keywords": "HowTo Two This is an example how to article"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the Yates Org...",
+    "keywords": "This is the Yates Org... Quick Start Notes Add images to the images folder if the file is referencing an image."
+  },
+  "articles/howto/howto1.html": {
+    "href": "articles/howto/howto1.html",
+    "title": "HowTo One",
+    "keywords": "HowTo One This is an example how to article"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Starting office a new test site",
+    "keywords": "Starting office a new test site New Information Something New! sd"
+  },
+  "articles/getting-started.html": {
+    "href": "articles/getting-started.html",
+    "title": "Getting Started Title",
+    "keywords": "Getting Started Page Some good content here."
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "PLACEHOLDER",
+    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation ! These are API DOCS..."
+  },
+  "api/DevNet.Online.Tenant.html": {
+    "href": "api/DevNet.Online.Tenant.html",
+    "title": "Class Tenant",
+    "keywords": "Class Tenant An online tenant, or customer, with environmental properties. Inheritance System.Object Tenant Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class Tenant : object Constructors | Edit View Source Tenant(String, SuperOfficeEnvironment) Tenant constructor. Declaration public Tenant(string contextIdentifer, SuperOfficeEnvironment environment) Parameters Type Name Description System.String contextIdentifer The customer identifier. SuperOfficeEnvironment environment The online environment where the customer tenant resides. Properties | Edit View Source ApplicationAuthorization The authorization between an online tenant and application. Declaration public ApplicationAuthorization ApplicationAuthorization { get; set; } Property Value Type Description ApplicationAuthorization | Edit View Source ContextIdentifier The customer identification number. Declaration public string ContextIdentifier { get; set; } Property Value Type Description System.String | Edit View Source Environment The online environment: Development, Stage or Production, and relevant URLs. Declaration public SuperOfficeEnvironment Environment { get; set; } Property Value Type Description SuperOfficeEnvironment | Edit View Source ID A tenant ID value. Declaration public int ID { get; set; } Property Value Type Description System.Int32 | Edit View Source WebApiUrl The URL for online applications connecting to this tenants REST API. Declaration public string WebApiUrl { get; } Property Value Type Description System.String"
+  },
+  "api/DevNet.Online.html": {
+    "href": "api/DevNet.Online.html",
+    "title": "Namespace DevNet.Online",
+    "keywords": "Namespace DevNet.Online Classes Application Registered online application. ApplicationAuthorization The authorization between an online tenant and application. ApplicationContext The application context contains all details for an application to tenant connection. ApplicationUser An application user and OpenID Connect credentials. OAuthTokens OAuth and OpenID Connect tokens. SuperOfficeEnvironment Tenant An online tenant, or customer, with environmental properties."
+  },
+  "api/DevNet.Online.SuperOfficeEnvironment.html": {
+    "href": "api/DevNet.Online.SuperOfficeEnvironment.html",
+    "title": "Class SuperOfficeEnvironment",
+    "keywords": "Class SuperOfficeEnvironment Inheritance System.Object SuperOfficeEnvironment Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class SuperOfficeEnvironment : object Constructors | Edit View Source SuperOfficeEnvironment(OnlineEnvironment) Declaration public SuperOfficeEnvironment(OnlineEnvironment environment) Parameters Type Name Description OnlineEnvironment environment Fields | Edit View Source _tenantStatus Declaration public const string _tenantStatus = null Field Value Type Description System.String Properties | Edit View Source Authority Declaration public string Authority { get; } Property Value Type Description System.String | Edit View Source ClaimsIssuer Declaration public string ClaimsIssuer { get; } Property Value Type Description System.String | Edit View Source Current Declaration public OnlineEnvironment Current { get; set; } Property Value Type Description OnlineEnvironment | Edit View Source MetaDataEndpoint Declaration public string MetaDataEndpoint { get; } Property Value Type Description System.String | Edit View Source TenantStatusUrl Declaration public string TenantStatusUrl { get; } Property Value Type Description System.String"
+  },
+  "api/DevNet.Online.ApplicationUser.html": {
+    "href": "api/DevNet.Online.ApplicationUser.html",
+    "title": "Class ApplicationUser",
+    "keywords": "Class ApplicationUser An application user and OpenID Connect credentials. Inheritance System.Object ApplicationUser Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class ApplicationUser : object Properties | Edit View Source AuthTokens The OpenID tokens for communicating with an online tenant. Declaration public OAuthTokens AuthTokens { get; set; } Property Value Type Description OAuthTokens"
+  },
+  "api/DevNet.Online.OAuthTokens.html": {
+    "href": "api/DevNet.Online.OAuthTokens.html",
+    "title": "Class OAuthTokens",
+    "keywords": "Class OAuthTokens OAuth and OpenID Connect tokens. Inheritance System.Object OAuthTokens Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class OAuthTokens : object Properties | Edit View Source AccessToken OAuth bearer access_token. Declaration public string AccessToken { get; set; } Property Value Type Description System.String | Edit View Source IdToken OpenID Connect identity token. Declaration public string IdToken { get; set; } Property Value Type Description System.String | Edit View Source RefreshToken OAuth refresh token, used to obtain a new access_token. Declaration public string RefreshToken { get; set; } Property Value Type Description System.String"
+  },
+  "api/DevNet.Online.ApplicationContext.html": {
+    "href": "api/DevNet.Online.ApplicationContext.html",
+    "title": "Class ApplicationContext",
+    "keywords": "Class ApplicationContext The application context contains all details for an application to tenant connection. Inheritance System.Object ApplicationContext Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class ApplicationContext : object Properties | Edit View Source Application Registered online application. Declaration public Application Application { get; set; } Property Value Type Description Application | Edit View Source ApplicationUser An application user and OpenID Connect credentials. Declaration public ApplicationUser ApplicationUser { get; set; } Property Value Type Description ApplicationUser | Edit View Source Tenant An online tenant, or customer, with environmental properties. Declaration public Tenant Tenant { get; set; } Property Value Type Description Tenant"
+  },
+  "api/DevNet.Online.Application.html": {
+    "href": "api/DevNet.Online.Application.html",
+    "title": "Class Application",
+    "keywords": "Class Application Registered online application. Inheritance System.Object Application Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class Application : object Properties | Edit View Source ClientId The application client identifier, or application id. Declaration public string ClientId { get; set; } Property Value Type Description System.String | Edit View Source ClientSecret The application secret token, or application token. Declaration public string ClientSecret { get; set; } Property Value Type Description System.String | Edit View Source ID The application ID value. Declaration public int ID { get; set; } Property Value Type Description System.Int32 | Edit View Source Name The application name. Declaration public string Name { get; set; } Property Value Type Description System.String | Edit View Source PrivateKey The application private RSAXML string. Used for signing system user requests. Declaration public string PrivateKey { get; set; } Property Value Type Description System.String | Edit View Source RedirectUri The application redirect URI. Declaration public Uri RedirectUri { get; set; } Property Value Type Description Uri"
+  },
+  "api/DevNet.Online.ApplicationAuthorization.html": {
+    "href": "api/DevNet.Online.ApplicationAuthorization.html",
+    "title": "Class ApplicationAuthorization",
+    "keywords": "Class ApplicationAuthorization The authorization between an online tenant and application. Inheritance System.Object ApplicationAuthorization Namespace : DevNet.Online Assembly : DevNet.Online.dll Syntax public class ApplicationAuthorization : object Properties | Edit View Source ID The authorization ID. Declaration public int ID { get; set; } Property Value Type Description System.Int32 | Edit View Source SystemUserToken The system user token used during the exchange to obtain a system user ticket. Declaration public string SystemUserToken { get; set; } Property Value Type Description System.String"
+  }
+}
