@@ -1,4 +1,4 @@
-# This is the ** Yates Org... HOMEPAGE**
+# This is the Yates Org...
 
 ## Quick Start Notes
 
